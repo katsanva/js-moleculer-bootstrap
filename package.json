@@ -1,0 +1,24 @@
+{
+  "name": "js-moleculer-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/app",
+  "scripts": {
+    "start": "nodemon --watch src bin/app",
+    "test": "jest src",
+    "coverage": "npm run test -- --coverage",
+    "watch:coverage": "npm run coverage -- --watch",
+    "watch:test": "npm run test -- --watch"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "nodemon": "^1.17.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "config": "^1.30.0",
+    "moleculer": "^0.12.8"
+  }
+}
